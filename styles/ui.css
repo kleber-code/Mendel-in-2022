@@ -1,6 +1,6 @@
 html {
-    background-color:#171717;
-    color: #f3ffe3;
+    background-color:#131516;
+    color: #d8d4cf;
     padding: 20px;
     font-size: x-large;
 }
@@ -10,7 +10,7 @@ section {
     grid-template-columns: auto 40%;
 }
 audio {
-    background-color: #171717;
+    background-color: #131516;
 }
 @media only screen and (max-width: 800px) {
     section {

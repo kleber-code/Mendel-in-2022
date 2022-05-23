@@ -1,6 +1,6 @@
 .card {
-    background-color: #1c1c1c;
-    border: #9c9c9c 2px solid;
+    background-color: #131516;
+    border: #5e5b65 1px solid;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -10,7 +10,7 @@
     transition: 0.5s;
 }
 .card:hover {
-    background-color: #2f2f2f;
+    background-color: #1a151a;
     color: aqua;
 }
 .card span {

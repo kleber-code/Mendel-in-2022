@@ -7,7 +7,7 @@
 }
 
 .panel div {
-    background-color: #1c1c1c;
+    background-color: #131516;
     transition: 0.5s;
     border:#a3a3a3 3px outset;
     border-radius: 10px;
@@ -15,13 +15,13 @@
 }
 
 .panel div:hover {
-    background-color: #2f2f2f;
+    background-color: #1a151a;
 }
 
 .panel div input {
     width: 99%;
-    background-color: #1c1c1c;
-    color: #f3ffe3;
+    background-color: #131516;
+    color: #d8d4cf;
     font-size: larger;
     border: none;
     border-radius: 10px;
@@ -30,7 +30,7 @@
 .panel div button {
     width: 100%;
     background: none;
-    color: #f3ffe3;
+    color: #d8d4cf;
     padding: 15px;
     font-size: x-large;
     border-radius: 10px;
@@ -38,7 +38,7 @@
     transition: 1s;
 }
 .panel div button:hover {
-    background-color: #424242;
+    background-color: #2F252F;
 }
 audio {
     border-radius: 50px;
