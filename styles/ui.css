@@ -1,8 +1,13 @@
-html {
+html,body {
     background-color:#131516;
     color: #d8d4cf;
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
     font-size: x-large;
+}
+header {
+    text-align: center;
+    margin: 20px;
 }
 section {
     margin: auto auto;
@@ -14,6 +19,7 @@ audio {
 }
 @media only screen and (max-width: 1000px) {
     section {
+        margin: 5px 5px;
         grid-template-columns: auto;
         grid-template-rows: auto auto;
     }

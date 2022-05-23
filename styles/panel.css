@@ -19,7 +19,8 @@
 }
 
 .panel div input {
-    width: 99%;
+    padding: 10px;
+    width: 95%;
     background-color: #131516;
     color: #d8d4cf;
     font-size: larger;

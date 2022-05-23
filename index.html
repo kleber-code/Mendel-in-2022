@@ -11,35 +11,35 @@
 </head>
 <body>
     <header>
-        <h1>Simulador de duas familias</h1>
+        <h1>Mendel em 2022</h1>
     </header>
     <section style="display: grid;gap:20px">
         <div style="display: grid;grid-template-rows:auto auto auto;gap: 5px;">
-            <div style="display: grid;grid-template-columns:auto auto auto auto;gap: 5px;">
-                <div class="card" id="ca1"><span>A1</span><p></p></div>
-                <div class="card" id="ca2"><span>A2</span><p></p></div>
-                <div class="card" id="cb1"><span>B1</span><p></p></div>
-                <div class="card" id="cb2"><span>B2</span><p></p></div>
+            <div style="display: grid;grid-template-columns: auto auto auto auto;gap: 5px;">
+                <div class="card" id="ca1" onclick="getIdWithAClick('A1')"><span>A1</span><p></p></div>
+                <div class="card" id="ca2" onclick="getIdWithAClick('A2')"><span>A2</span><p></p></div>
+                <div class="card" id="cb1" onclick="getIdWithAClick('B1')"><span>B1</span><p></p></div>
+                <div class="card" id="cb2" onclick="getIdWithAClick('B2')"><span>B2</span><p></p></div>
             </div>
             <div style="display: grid;grid-template-columns:auto auto;gap: 5px;">
-                <div class="card" id="ca3"><span>A3</span><p></p></div>
-                <div class="card" id="cb3"><span>B3</span><p></p></div>
+                <div class="card" id="ca3" onclick="getIdWithAClick('A3')"><span>A3</span><p></p></div>
+                <div class="card" id="cb3" onclick="getIdWithAClick('B3')"><span>B3</span><p></p></div>
             </div>
-            <div class="card" id="cn"><span>N</span><p></p></div>
+            <div class="card" id="cn" onclick="getIdWithAClick('test')"><span>N</span><p></p></div>
         </div>
         <div class="panel" style="display: flex;flex-direction: column;gap:5px;">
             <script src="script/simulator.js"></script>
             <div><input type="text" id="idInput" placeholder="ID da celula (A1, a2, B3...)"></input></div>
             <div><input type="text" id="valueInput" placeholder="Valor Genetico (AA, Aa, aa...)"></input></div>
-            <div><button onclick="ChangeCell('idInput','valueInput')">Alterar</button></div>
+            <div><button onclick="ChangeCell()">Modificar</button></div>
             <div><button onclick="Calc()">Calcular</button></div>
-            <div><button onclick="Reset()">Resetar</button></div>
+            <div><button onclick="Reset()">Zerar</button></div>
             <div style="display: grid;grid-template-columns: auto auto;gap: 5px;">
                 <button onclick="GuiaGo()">Guia</button>
                 <button onclick="Relax()">Relax</button>
             </div>
-            <div id="audioCard" style="display: none; width: 100%;grid-template-rows: auto auto;padding: 10px;">
-                <a style="text-decoration: none; color:white;" href="https://freemusicarchive.org/music/Stephan_Siebert/Stephan_Siebert/stephan_siebert__07/"><strong>When</strong> by Stephan Siebert</a>
+            <div id="audioCard" style="display: none;grid-template-rows: auto auto;padding: 5px;">
+                <a style="text-decoration: none; color:white;" href="https://freemusicarchive.org/music/Stephan_Siebert/Stephan_Siebert/stephan_siebert__07/"><strong>"When"</strong> by Stephan Siebert</a>
                 <audio controls loop style="margin: auto auto;">
                     <source src="music/Stephan Siebert - when.mp3" type="audio/mpeg">
                 </audio>

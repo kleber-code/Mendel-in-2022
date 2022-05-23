@@ -1,7 +1,11 @@
-var A = ['__','__','__']
-var B = ['__','__','__']
-var N = ['__','__','__','__']
-function ChangeCell (idInput,valueInput) {
+var A = ['__','__','__'];
+var B = ['__','__','__'];
+var N = ['__','__','__','__'];
+
+const idInput = 'idInput';
+const valueInput = 'valueInput';
+
+function ChangeCell () {
     var id = String('c'+document.getElementById(idInput).value).toLowerCase();
     var value = String(document.getElementById(valueInput).value);
 
@@ -95,4 +99,12 @@ function GuiaGo () {
 
 function Relax () {
     document.getElementById('audioCard').style.display='grid';
+}
+
+function getIdWithAClick (id) {
+    document.getElementById(idInput).value = id;
+    if ( id=='test' ) {
+        document.getElementById(idInput).value = 'A1';
+        document.getElementById(valueInput).value = 'test';
+    }
 }
