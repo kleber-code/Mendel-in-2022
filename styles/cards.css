@@ -1,0 +1,23 @@
+.card {
+    background-color: #1c1c1c;
+    border: #9c9c9c 2px solid;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 3s;
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.card:hover {
+    background-color: #2f2f2f;
+    color: aqua;
+}
+.card span {
+    font-size: larger;
+    font-weight: 400;
+}
+.card p {
+    font-size: xx-large;
+    color: aquamarine;
+}
