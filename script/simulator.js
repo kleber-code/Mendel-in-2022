@@ -6,23 +6,18 @@ function ChangeCell (idInput,valueInput) {
     var value = String(document.getElementById(valueInput).value);
 
     if (id.length == 3) {
-        document.getElementById(idInput).style.backgroundColor = '#1c1c1c';
-        document.getElementById(idInput).style.color = '#f3ffe3';
+        document.getElementById(idInput).style.backgroundColor = '#131516';
+        document.getElementById(idInput).style.color = '#d8d4cf';
     } else {
-        document.getElementById(idInput).style.backgroundColor = 'red';
-        document.getElementById(idInput).style.color = 'black';
+        document.getElementById(idInput).style.backgroundColor = '#600';
         id = '__';
     }
     if (value.length == 2) {
-        document.getElementById(valueInput).style.backgroundColor = '#1c1c1c';
-        document.getElementById(valueInput).style.color = '#f3ffe3';
+        document.getElementById(valueInput).style.backgroundColor = '#131516';
+        document.getElementById(valueInput).style.color = '#d8d4cf';
     } else {
-        if (value == 'test') {
-            document.getElementById(valueInput).style.backgroundColor = 'yellow';
-            document.getElementById(valueInput).style.color = 'black';
-        } else {
-            document.getElementById(valueInput).style.backgroundColor = 'red';
-            document.getElementById(valueInput).style.color = 'black';
+        if (value.toLowerCase != 'test') {
+            document.getElementById(valueInput).style.backgroundColor = '#600';
             value = '__';
         }
     }
