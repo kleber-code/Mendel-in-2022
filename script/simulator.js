@@ -71,15 +71,15 @@ function Calc () {
 }
 
 function Load () {
-    document.getElementById('ca1').querySelector('p').innerHTML = A[0];
-    document.getElementById('ca2').querySelector('p').innerHTML = A[1];
-    document.getElementById('ca3').querySelector('p').innerHTML = A[2];
+    setTimeout(()=>{document.getElementById('ca1').querySelector('p').innerHTML = A[0];},100);
+    setTimeout(()=>{document.getElementById('ca2').querySelector('p').innerHTML = A[1];},100);
+    setTimeout(()=>{document.getElementById('ca3').querySelector('p').innerHTML = A[2];},100);
 
-    document.getElementById('cb1').querySelector('p').innerHTML = B[0];
-    document.getElementById('cb2').querySelector('p').innerHTML = B[1];
-    document.getElementById('cb3').querySelector('p').innerHTML = B[2];
+    setTimeout(()=>{document.getElementById('cb1').querySelector('p').innerHTML = B[0];},100);
+    setTimeout(()=>{document.getElementById('cb2').querySelector('p').innerHTML = B[1];},100);
+    setTimeout(()=>{document.getElementById('cb3').querySelector('p').innerHTML = B[2];},100);
 
-    document.getElementById('cn').querySelector('p').innerHTML = `${N[0]}, ${N[1]}, ${N[2]} e ${N[3]}.`;
+    setTimeout(()=>{document.getElementById('cn').querySelector('p').innerHTML = `${N[0]}, ${N[1]}, ${N[2]} e ${N[3]}.`;},200);
 }
 
 function Reset () {
@@ -94,5 +94,5 @@ function GuiaGo () {
 }
 
 function Relax () {
-    document.getElementById('audioCard').style.display='block';
+    document.getElementById('audioCard').style.display='grid';
 }
