@@ -1,0 +1,32 @@
+html,body {
+    background-color:#13151655;
+    color: #d8d4cf;
+    padding: 0px;
+    margin: 0px;
+    font-size: xx-large;
+    background-image: url('https://images.unsplash.com/photo-1520053033418-65ba7f7ba636?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074');
+    background-size: cover;
+    background-attachment: fixed;
+}
+table {
+    margin: auto auto;
+}
+th {
+    background-color: #1c1c1c55;
+    border: #9c9cAc 3px outset;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+@media only screen and (max-width: 1000px) {
+    html,body {
+        font-size: larger;
+    }
+    th {
+        padding: auto;
+        width: auto;
+        height: auto;
+    }
+}

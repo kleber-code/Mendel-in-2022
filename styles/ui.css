@@ -1,9 +1,12 @@
 html,body {
-    background-color:#131516;
+    background-color:#131516EE;
     color: #d8d4cf;
     padding: 0px;
     margin: 0px;
     font-size: x-large;
+    background-image: url('https://images.unsplash.com/photo-1531956656798-56686eeef3d4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2054');
+    background-size: cover;
+    background-attachment: fixed;
 }
 header {
     text-align: center;
@@ -15,7 +18,7 @@ section {
     grid-template-columns: auto 40%;
 }
 audio {
-    background-color: #131516;
+    background-color: #131516EE;
 }
 @media only screen and (max-width: 1000px) {
     section {

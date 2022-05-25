@@ -1,13 +1,13 @@
 .panel {
-    background-color: #1c1c1c;
-    border: #9c9c9c 2px solid;
+    background-color: #1c1c1cEE;
+    border: #9c9cAc 3px outset;
     padding: 20px;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 
 .panel div {
-    background-color: #131516;
+    background-color: #131516EE;
     transition: 0.5s;
     border:#a3a3a3 3px outset;
     border-radius: 10px;
@@ -21,7 +21,7 @@
 .panel div input {
     padding: 10px;
     width: 95%;
-    background-color: #131516;
+    background-color: #131516EE;
     color: #d8d4cf;
     font-size: larger;
     border: none;

@@ -93,8 +93,8 @@ function Reset () {
     Load()
 }
 
-function GuiaGo () {
-
+function GameGo () {
+    window.location = ''
 }
 
 function Relax () {
