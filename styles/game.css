@@ -9,7 +9,7 @@ html,body {
     background-attachment: fixed;
 }
 table {
-    margin: auto auto;
+    margin: 100px auto;
 }
 th {
     background-color: #1c1c1c55;
