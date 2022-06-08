@@ -312,6 +312,6 @@ function game (oldPlayerPos) {
     function gameover () {
         document.body.style.backgroundColor = '#F33';
         alert(`Você morreu!!!\nSua Pontuação foi ${score} salas concluídas e ${playerTurns} turnos executados`);
-        location.reload();
+        setTimeout(()=>{location.reload();},2000);
     }
 }
